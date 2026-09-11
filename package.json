@@ -1,0 +1,11 @@
+{
+  "name": "proxyman-patcher",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Patches Proxyman 3.19.0 Electron asar to unlock PRO",
+  "type": "module",
+  "scripts": {
+    "patch": "bun patch.mjs",
+    "restore": "bun patch.mjs --restore"
+  }
+}
